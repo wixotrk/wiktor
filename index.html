@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café DevCat</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Café DevCat</div>
+    <ul class="nav-links">
+      <li><a href="#story">O&nbsp;nas</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#why">Dlaczego&nbsp;DevCat?</a></li>
+      <li><a href="#events">Wydarzenia</a></li>
+      <li><a href="#gallery">Galeria</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Witaj w Café DevCat</h1>
+      <p>Cyberpunkowa oaza dla programistów</p>
+      <a href="#menu" class="btn">Zobacz menu</a>
+    </div>
+  </header>
+
+  <!-- Squares (4 options) -->
+  <section class="squares section alt-bg" id="options">
+    <div class="content">
+      <div class="content__copy">
+        <h2 class="title">Twoja kawa zawsze z&nbsp;Tobą</h2>
+        <p>Odkryj nasze usługi dostosowane do Twojego stylu życia.</p>
+      </div>
+      <div class="content__images swipeable swipeable--default" data-squares="4">
+        <a href="#story" class="square-item">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="W kawiarni">
+          <div class="label">W kawiarni</div>
+        </a>
+        <a href="#menu" class="square-item">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Na wynos">
+          <div class="label">Na wynos</div>
+        </a>
+        <a href="#events" class="square-item">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80" alt="Wydarzenia">
+          <div class="label">Wydarzenia</div>
+        </a>
+        <a href="#gallery" class="square-item">
+          <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80" alt="Galeria">
+          <div class="label">Zobacz galerię</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banner full-width right image -->
+  <section class="full-width banner banner--right">
+    <div class="content">
+      <div class="content__image">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=80" alt="Cyberpunk Cafe Interior">
+      </div>
+      <div class="content__copy">
+        <h2 class="title">Cyber&nbsp;Boost</h2>
+        <p>Nasza flagowa mieszanka ziaren z Etiopii, Brazylii i Kolumbii. Wzbogacona o nuty cytrusów i ciemnej czekolady, idealna na długie godziny kodowania.</p>
+        <a class="btn btn--link" href="#menu">Zobacz menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillars (Menu overview) -->
+  <section class="pillars section" id="pillars">
+    <div class="content">
+      <div class="content__copy">
+        <span class="surtitle">Nasze Menu</span>
+        <h2 class="title">Na co dzień i&nbsp;od&nbsp;święta</h2>
+        <p>Śniadanie, lunch czy późnonocne debugowanie – mamy coś pysznego.</p>
+      </div>
+      <menu class="content__images swipeable">
+        <li><a href="#menu"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80" alt="Kawa"><div class="label"><span class="number">01</span> Kawa</div></a></li>
+        <li><a href="#menu"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80" alt="Jedzenie"><div class="label"><span class="number">02</span> Jedzenie</div></a></li>
+        <li><a href="#menu"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=400&q=80" alt="Napoje"><div class="label"><span class="number">03</span> Napoje</div></a></li>
+      </menu>
+    </div>
+  </section>
+
+  <!-- Insta photo grid -->
+  <section class="full photo-grid photo-grid--right">
+    <div class="content">
+      <div class="content__copy">
+        <h2 class="title">Zostańmy w&nbsp;kontakcie</h2>
+        <p>Śledź neonowe nowinki DevCat na Instagramie.</p>
+        <a class="btn btn--link" href="https://www.instagram.com" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Story -->
+  <section id="story" class="section alt-bg">
+    <h2>O nas</h2>
+    <p>Café DevCat powstało z pasji do kodu i kawy. Jesteśmy miejscem, w którym wyobraźnia spotyka się z technologią w cyberpunkowej atmosferze. Nasz zespół baristów i deweloperów współtworzy przestrzeń, w której możesz zarówno debugować aplikacje, jak i delektować się doskonałą kawą.</p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Menu</h2>
+    <p>Wyselekcjonowane ziarna, nootropic lattes i przekąski, które pobudzą Twój kod.</p>
+    <ul class="menu-items">
+      <li><span>Espresso Neon</span><span>12 zł</span></li>
+      <li><span>Latte Quantum</span><span>15 zł</span></li>
+      <li><span>Matcha AI</span><span>14 zł</span></li>
+      <li><span>Cappuccino Crypto</span><span>16 zł</span></li>
+      <li><span>Flat White Framework</span><span>17 zł</span></li>
+      <li><span>Mocha Matrix</span><span>18 zł</span></li>
+      <li><span>Cold Brew Cypher</span><span>14 zł</span></li>
+      <li><span>Nitro Node</span><span>19 zł</span></li>
+      <li><span>Affogato Async</span><span>20 zł</span></li>
+      <li><span>Tea TypeScript</span><span>11 zł</span></li>
+    </ul>
+  </section>
+
+  <!-- Why DevCat -->
+  <section id="why" class="section alt-bg">
+    <h2>Dlaczego DevCat?</h2>
+    <div class="why-grid">
+      <div class="why-item"><h3>Atmosfera</h3><p>Neonowy klimat sprzyjający kreatywności i skupieniu.</p></div>
+      <div class="why-item"><h3>Jakość</h3><p>Starannie wyselekcjonowane ziarna i najnowsze metody parzenia.</p></div>
+      <div class="why-item"><h3>Technologia</h3><p>Ergonomiczne stanowiska, szybkie Wi-Fi i wydarzenia branżowe.</p></div>
+    </div>
+  </section>
+
+  <!-- Tech Events -->
+  <section id="events" class="section">
+    <h2>Wydarzenia</h2>
+    <ul class="events">
+      <li><strong>Wtorki 18:00</strong> – Coding Dojo (algorytmiczne wyzwania)</li>
+      <li><strong>Czwartki 19:00</strong> – Lightning Talks (krótkie prezentacje społeczności)</li>
+      <li><strong>Ostatnia sobota miesiąca</strong> – Nocny Hackathon z nagrodami</li>
+    </ul>
+  </section>
+
+  <!-- Galeria -->
+  <section id="gallery" class="section">
+    <h2>Galeria</h2>
+    <div class="gallery-slider">
+      <div class="slide"><img src="https://images.unsplash.com/photo-1533577116850-9cc66cad8a9b?auto=format&fit=crop&w=1200&q=80" alt="Cyberpunk Alley"></div>
+      <div class="slide"><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80" alt="Neon City Night"></div>
+      <div class="slide"><img src="https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=1200&q=80" alt="Rainy Street Neon"></div>
+      <div class="slide"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" alt="Futuristic Skyline"></div>
+    </div>
+  </section>
+
+  <!-- Brewing Methods -->
+  <section id="brewing" class="section alt-bg">
+    <h2>Metody parzenia</h2>
+    <div class="brewing-grid">
+      <div class="brew-item"><h3>Aeropress</h3><p>Czysty, wyrazisty smak w 2 minuty.</p></div>
+      <div class="brew-item"><h3>Drip V60</h3><p>Delikatny napar, idealny do single&nbsp;origin.</p></div>
+      <div class="brew-item"><h3>Chemex</h3><p>Eleganckie body i klarowność.</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <h2>Opinie</h2>
+    <blockquote>"Najlepsze miejsce do pair-programmingu &amp; espresso!" – Anna, Front-end Dev</blockquote>
+    <blockquote>"Chodzący kotek to killer-feature, serio." – Michał, Mobile Dev</blockquote>
+  </section>
+
+  <section id="contact" class="section alt-bg">
+    <h2>Kontakt</h2>
+    <p>ul. Bitowa 42, 00-133 Warszawa</p>
+    <p>kontakt@devcat.cafe • +48 123 456 789</p>
+  </section>
+
+  <footer>
+    © 2025 Café DevCat
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
